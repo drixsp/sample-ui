@@ -1,0 +1,64 @@
+
+.module{
+    background: white;
+    border: 2px solid #C4C4C4;
+    height: 345px;
+    width: 451px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Arial', 'sans-serif';
+    color: #BABABA;
+    margin-left: 200px;
+    /* margin-top: 74px; */
+}
+
+.module h1{
+    color: #BABABA;
+    font-weight: bold;
+    /* margin-left: 28px; */
+    font-size: 24px;
+    margin-top: 19px;
+}
+
+.row{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color: white;
+    /* border-radius: 10px; */
+    /* border-color: white; */
+}
+
+#switch{
+    background-color: white;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px;
+}
+
+#switchtext{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+#header{
+    width: 400px;
+    margin: 0;
+    display: inline-block;
+}
+
+/* .module .edit{
+    background-color: #C4C4C4;
+    font-size: 10px;
+    text-align: center;
+    float: right;
+    color: white;
+    width: 42px;
+    height: 17px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+} */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Sample module</title>
+  <link rel="stylesheet" href="module.css">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+  <!-- <script src="bootstrap-4.4.1-dist\js\bootstrap.min.js"></script> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  
+  <script type="text/javascript">
+
+    function change(){
+        var image = document.getElementById('switch');
+        image.src = "light-off.svg";
+        alert(image.src);
+    }
+</script>
+
+</head>
+<body>
+    <div class="module">
+        <div class="container">
+            <!-- Row 1 -->
+            <div class="row" id="header">
+                <div class="col-sm">
+                    <h1>FRONT LIGHTS</h1>
+                </div>
+                </div>
+            </div>
+
+
+                <!-- Row 2 -->
+            <div class="row" id="switch">
+            <div class="col-sm">
+                <img src="light-on.svg" alt="AC unit" id="switch" onclick="change()">
+                <p id="switchtext">01</p>
+            </div>
+            <div class="col-sm">
+                <img src="light-on.svg" alt="AC unit">
+                <p id="switchtext">02</p>
+            </div>
+            <div class="col-sm">
+                <img src="light-on.svg" alt="AC unit">
+                <p id="switchtext">03</p>
+            </div>
+            <div class="col-sm">
+                <img src="light-on.svg" alt="AC unit">
+                <p id="switchtext">04</p>
+            </div>
+            </div>
+
+            <div class="row" id="switch">
+                <div class="col-sm">
+                    <img src="light-off.svg" alt="AC unit">
+                    <p id="switchtext">05</p>
+                </div>
+                <div class="col-sm">
+                    <img src="light-off.svg" alt="AC unit">
+                    <p id="switchtext">06</p>
+                </div>
+                <div class="col-sm">
+                    <img src="light-off.svg" alt="AC unit">
+                    <p id="switchtext">07</p>
+                </div>
+                <div class="col-sm">
+                    <img src="light-off.svg" alt="AC unit">
+                    <p id="switchtext">08</p>
+                </div>
+                </div>
+          </div>
+    </div>
+</body>
+</html>

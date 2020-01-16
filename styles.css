@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+h2{
+    font-size: 18px !important;
+}
+
+ul { 
+  padding:0
+} 
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  padding-top: 100px;
+  width: 150px;
+  height: 100%;
+  background: #252525;
+  position: fixed;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+
+.wrapper .sidebar ul li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+}
+
+.wrapper .sidebar ul li a{
+  color: white;
+  text-align: left;
+  /* margin-left: 15%; */
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #1c1c1c;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: white;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 150px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #F5F5F5;
+  color: #717171;
+  /* border-bottom: 1px solid #e0e4e8; */
+  letter-spacing: 5px;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #828282;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.login_form{
+    background: white;
+    padding: 10%;
+}
+
+.loginblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5%;
+}
